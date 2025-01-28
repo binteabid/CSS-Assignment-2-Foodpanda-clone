@@ -285,6 +285,7 @@
   }
   
   .kitchen .content {
+
     background-color: white;
     box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
     border-radius: 12px;
@@ -708,7 +709,12 @@
     .kitchen .background-image {
       min-height: 404px;
     }
-  
+   .kitchen .content {
+    margin: 0 3rem;
+    margin-top: -20rem;
+    max-width: 350px;
+    padding: 2rem;
+  }
   
     .content p {
       font-size: 1rem;
@@ -738,7 +744,11 @@
       max-height: 400px;
     }
   
-  
+    /* Partners Section */
+    .partners .content {
+        max-width: 450px;
+      }
+    
     /* Links */
     .links {
       flex-direction: row;
